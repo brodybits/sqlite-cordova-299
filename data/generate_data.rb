@@ -5,7 +5,7 @@ require 'json'
 
 DATA_FILE = File.expand_path('../FakeNameGenerator.com_0dae316a/FakeNameGenerator.com_0dae316a.csv', __FILE__)
 OUTPUT_FILE = File.expand_path('../../www/js/data.js', __FILE__)
-LIMIT=8_000
+LIMIT=30_000
 
 def documents
   docs = []
